@@ -1,6 +1,7 @@
 # 简介
 * 使用多线程异步操作rknn模型, 提高rk3588/rk3588s的NPU使用率, 进而提高推理帧数
 * 此分支使用模型[yolov8——rknn](https://github.com/airockchip/rknn_model_zoo),
+* [测试视频](https://github.com/leafqycc/rknn-multi-threaded/releases/download/v0.2/720p60hz.mp4)
 
 # 更新说明
 * 无
