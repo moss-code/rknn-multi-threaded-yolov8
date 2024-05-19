@@ -1,7 +1,8 @@
 # 简介
 * 使用多线程异步操作rknn模型, 提高rk3588/rk3588s的NPU使用率, 进而提高推理帧数
-* 此分支使用模型[yolov8——rknn](https://github.com/airockchip/rknn_model_zoo),
+* 此分支使用模型[yolov8_rknn](https://github.com/airockchip/rknn_model_zoo),
 * [测试视频](https://github.com/leafqycc/rknn-multi-threaded/releases/download/v0.2/720p60hz.mp4)
+* 本人环境ubuntu22.04，librknnrt version: 2.0.0b0，RKNN_Driver version：0.92,rknn_toolkit version: 2.0.0b0+9bab5682
 
 # 更新说明
 * 无
@@ -20,9 +21,8 @@
 
 # 多线程模型帧率测试
 * 使用performance.sh进行CPU/NPU定频尽量减少误差
-* 测试模型为[yolov5s_relu_tk2_RK3588_i8.rknn](https://github.com/airockchip/rknn_model_zoo)
-* 测试视频见于Releases
-
+* 测试模型为[yolov8_rknn](https://github.com/airockchip/rknn_model_zoo)
+  
 
 # Acknowledgements
 * https://github.com/rockchip-linux/rknn-toolkit2
