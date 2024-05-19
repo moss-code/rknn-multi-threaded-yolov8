@@ -6,7 +6,7 @@ from func import myFunc
 
 cap = cv2.VideoCapture('./720p60hz.mp4')
 # cap = cv2.VideoCapture(0)
-modelPath = "./rknnModel/yolov5s_relu_tk2_RK3588_i8.rknn"
+modelPath = "./rknnModel/yolov8n_rknn.rknn"
 # 线程数, 增大可提高帧率
 TPEs = 3
 # 初始化rknn池

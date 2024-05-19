@@ -4,7 +4,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
 def initRKNN(rknnModel="./rknnModel/yolov5s.rknn", id=0):
-    rknn_lite = RKNNLite()
+    rknn_lite = RKNNLite(verbose=False)
     ret = rknn_lite.load_rknn(rknnModel)
     if ret != 0:
         print("Load RKNN rknnModel failed")
